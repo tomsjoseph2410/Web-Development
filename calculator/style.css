@@ -1,0 +1,44 @@
+.content1 {
+  margin: auto;
+  text-align: center;
+}
+.result {
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+.addition,
+.subtraction,
+.multiplication,
+.division {
+  background-color: rgb(94, 19, 163);
+  font-size: 50px;
+  padding: 20px 30px 20px 30px;
+  margin-left: 15px;
+}
+
+.equals_to {
+  background-color: rgb(19, 163, 103);
+  margin-top: 20px;
+  font-size: 50px;
+  padding: 20px 30px 20px 30px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.zero {
+  background-color: rgba(81, 255, 0, 0.644);
+  padding: 15px 20px 15px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-family: monospace;
+}

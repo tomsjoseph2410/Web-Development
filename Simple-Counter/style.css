@@ -1,0 +1,67 @@
+body {
+  background: #24a8dc;
+  background: -webkit-linear-gradient(to right, #4a569d, #dc2424);
+  background: linear-gradient(to right, #4a569d, #dc2424);
+}
+
+.hello {
+  font-family: "Alegreya", serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+#button1 {
+  background-color: rgba(79, 197, 10, 0.822);
+  color: #030303;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: auto;
+  text-align: center;
+  padding: 30px;
+  box-shadow: #030303;
+  border: 20px solid rgba(17, 54, 221, 0.836);
+}
+
+#button2 {
+  background-color: rgba(79, 197, 10, 0.822);
+  color: #030303;
+  font-size: 20px;
+  padding: auto;
+  text-align: center;
+  padding: 30px;
+  margin-left: 30px;
+  box-shadow: #030303;
+  border: 20px solid rgba(17, 54, 221, 0.836);
+}
+
+#button3 {
+  background-color: rgba(79, 197, 10, 0.822);
+  color: #030303;
+  font-size: 20px;
+  padding: auto;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+  box-shadow: #030303;
+  border: 20px solid rgba(17, 54, 221, 0.836);
+}
+
+#countertext {
+  font-family: monospace;
+  font-size: 70px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.button_div {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.designed {
+  margin-top: 30px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: monospace;
+  color: white;
+}
