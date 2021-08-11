@@ -1,21 +1,12 @@
-navigator.geolocation.getCurrentPosition((position) => {
-  let lat = position.coords.latitude;
-  let lon = position.coords.longitude;
-
-  fetch(
-    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=####`
-  )
-    .then((response) => {
-      return response.json();
-    })
-    .then((users) => {
-      document.getElementById(
-        "content"
-      ).innerHTML = `Current Temperature<br> ${users.main.temp} °C <br> ${users.name}`;
-      console.log(users);
-    });
-}, error);
-
-function error(err) {
-  console.log("not working");
-}
+fetch(
+  "http://api.weatherapi.com/v1/current.json?key=d8a58dc9218842469e653108210408&q=Taliparamba&aqi=no"
+)
+  .then((response) => {
+    return response.json();
+  })
+  .then((users) => {
+    document.getElementById(
+      "content"
+    ).innerHTML = `${users.location.name} </br> ${users.current.feelslike_c} ° C`;
+    console.log(users);
+  });
